@@ -1,7 +1,7 @@
 import "./contact.css";
 
 function Contact() {
-  return <div>Contacto</div>;
+  return <section id="contact">Contacto</section>;
 }
 
 export default Contact;
