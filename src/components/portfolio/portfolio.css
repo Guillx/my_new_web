@@ -1,0 +1,137 @@
+.portfolio__subtitle {
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding-top: 4rem;
+}
+
+.portfolio__title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.portfolio-tabs-container {
+  border: 2px solid var(--color-bg-variant);
+  height: 63%;
+  border-radius: 2rem;
+  overflow: scroll;
+  background: var(--color-bg);
+}
+
+.portfolio-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.portfolio-tabs-list {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(68, 68, 68);
+  border-radius: 2rem 2rem 0 0;
+}
+
+.tab-header {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  cursor: pointer;
+  background: var(--color-bg-variant);
+}
+
+.active-tab {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  cursor: pointer;
+  background: #a690fc;
+  color: white;
+}
+
+.tab-header:not(:last-child) {
+  border-right: 1px solid rgb(68, 68, 68);
+}
+
+.portfolio-tabs-content {
+  overflow: hidden;
+  padding: 32px 80px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 20px 20px 15px 20px;
+  width: 100%;
+  background: var(--color-bg-variant);
+  border: 2px solid transparent;
+}
+.project-container:hover {
+  background: transparent;
+  border: 2px solid var(--color-bg-variant);
+}
+
+.project-container img {
+  width: 100%;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.project-container h3 {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 12px 20px;
+  height: 20%;
+}
+
+.project-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* 
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.portfolio__item-image {
+  overflow: hidden;
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.5rem;
+} */

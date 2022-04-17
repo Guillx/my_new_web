@@ -18,6 +18,7 @@ header {
 .header__container h1 {
   font-size: 3rem;
   font-weight: 700;
+  color: #a690fc;
 }
 
 .header__container h5 {

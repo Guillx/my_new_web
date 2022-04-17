@@ -62,6 +62,7 @@
 .about__card:hover {
   background: transparent;
   border-color: #a690fc;
+  transform: scale(1.07);
 }
 
 .about__icon {
